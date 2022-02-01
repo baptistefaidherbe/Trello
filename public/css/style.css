@@ -1,0 +1,114 @@
+body {
+
+  background: url('../img/1107859.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  overflow: scroll;
+
+}
+
+.card-lists {
+  overflow-x: auto;
+}
+
+.containt {
+
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel-block {
+
+  padding: 3.5em .75em;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: relative;
+
+
+}
+
+.has-background-info {
+
+  background-color: rgba(0, 0, 255, 0.4) !important;
+  border: none;
+  border-top: none !important;
+  position: relative;
+  z-index: 10;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+}
+
+.has-background-light {
+
+  background-color: rgba(247, 247, 248, 0.5) !important;
+}
+
+.has-text-white {
+
+  text-shadow: 1px 1px 2px rgb(202, 199, 216), 0 0 1em rgb(252, 252, 252), 0 0 0.2em blue !important;
+
+}
+
+.button.is-success {
+
+  background-color: rgba(0, 0, 255, 0.4) !important;
+ 
+
+}
+
+.button.is-success:hover {
+
+  background-color: rgba(86, 94, 207, 0.4) !important;
+  color: white
+}
+
+.icon.is-small{
+
+  padding:10px;
+
+}
+
+.title {
+
+  color: #363636;
+  font-size: 5rem;
+  text-shadow: 1px 1px 2px rgb(202, 199, 216), 0 0 1em rgb(252, 252, 252), 0 0 0.2em blue !important;
+  text-align: center;
+}
+
+.has-text-primary {
+  color: rgba(0, 0, 255, 1) !important;
+
+}
+
+.has-text-primary:hover {
+  color: rgb(224, 191, 43) !important;
+
+}
+
+.has-text-danger {
+  color: rgb(186, 97, 228) !important;
+
+}
+
+.has-text-danger:hover {
+  color: rgb(224, 191, 43) !important;
+
+}
+
+footer {
+
+  text-align: center;
+  font-size: 1.3em;
+  position: absolute;
+  color: white;
+  bottom: 5px;
+  width: 100%;
+
+
+
+
+}
